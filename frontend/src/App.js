@@ -32,7 +32,7 @@ export default function App() {
         setCurrentAccount(account);
         getAllWaves();
       } else {
-        console.log("No authorized account found");
+        console.log("No authorized account found.");
       }
     }  catch (error) {
     console.log(error);
