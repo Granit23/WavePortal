@@ -6,7 +6,7 @@ import { Box, Input, Textarea, Button } from "@chakra-ui/react"
 
 export default function App() {
 
-  const contractAddress = '0x1507178BeeA21cA6F9BB071140d7dF545FdB852C';
+  const contractAddress = '0x58E4752E383e6027e5ab40058b993931F2D959aC';
   const contractABI = abi.abi;
 
   const [currentAccount, setCurrentAccount] = React.useState("");
